@@ -9,6 +9,7 @@ from models.amenity import Amenity
 from models.city import City
 from models.place import Place
 from models.state import State
+from uuid import uuid4
 
 app = Flask(__name__)
 # app.jinja_env.trim_blocks = True
@@ -36,9 +37,10 @@ def hbnb():
 
     places = storage.all(Place).values()
     places = sorted(places, key=lambda k: k.name)
+    uid = uuid4()
 
     return render_template(
-        "0-hbnb.html", states=st_ct, amenities=amenities, places=places
+        "0-hbnb.html", states=st_ct, amenities=amenities, places=places, uid=uid
     )
 
 
