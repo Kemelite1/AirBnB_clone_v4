@@ -1,0 +1,14 @@
+{
+  "BaseModel.c83178b5-fa68-45b6-954e-ca100635ea3a": {
+    "id": "c83178b5-fa68-45b6-954e-ca100635ea3a",
+    "created_at": "2023-11-05T15:35:56.580203",
+    "updated_at": "2023-11-05T15:35:56.581181",
+    "__class__": "BaseModel"
+  },
+  "State.e5b3865b-9cbb-448f-90d2-c1f7fbe69cb3": {
+    "id": "e5b3865b-9cbb-448f-90d2-c1f7fbe69cb3",
+    "created_at": "2023-11-05T15:36:12.555410",
+    "updated_at": "2023-11-05T15:36:12.556382",
+    "__class__": "State"
+  }
+}
